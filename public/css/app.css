@@ -1,0 +1,33 @@
+body {
+    background: #f8f8f8;
+}
+.mini-footer {
+    background:#fff;
+    text-align:center;
+    padding:32px 0;
+    border: solid 1px #eee;
+}
+.mini-footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#999
+}
+.mini-footer p a {
+    color:#555
+}
+.mini-footer p a:hover {
+    color:#000
+}
+.card-img {
+    object-fit: cover;
+    height: 100%;
+}
+.custom_arrow > svg {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}
+#app {
+    min-height: 100vh;
+}
